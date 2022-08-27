@@ -1,12 +1,4 @@
-.App {
-  text-align: center;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -25,22 +17,9 @@
   color: #666666;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 .Container {
   display: grid;
   justify-content: center;
   grid-template-columns: 200px 200px 200px 200px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }

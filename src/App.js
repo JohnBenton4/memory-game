@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Memory Game</h1>
-        <h3 class="subtitle">Match Cards To Win</h3>
+        <h3 className="subtitle">Match Cards To Win</h3>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -16,25 +16,25 @@ function App() {
         </a>
       </header>
       <div className="Container">
-        <div class="row1">
+        <div className="row1">
           <MemoryCard />
           <MemoryCard />
           <MemoryCard />
           <MemoryCard />
         </div>
-        <div class="row2">
+        <div className="row2">
           <MemoryCard />
           <MemoryCard />
           <MemoryCard />
           <MemoryCard />
         </div>
-        <div class="row3">
+        <div className="row3">
           <MemoryCard />
           <MemoryCard />
           <MemoryCard />
           <MemoryCard />
         </div>
-        <div class="row4">
+        <div className="row4">
           <MemoryCard />
           <MemoryCard />
           <MemoryCard />
