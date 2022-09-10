@@ -106,10 +106,7 @@ class App extends React.Component {
           </a>
         </header>
         <div className="Container">
-          {cardsJSX.slice(0, 4)}
-          {cardsJSX.slice(4, 8)}
-          {cardsJSX.slice(8, 12)}
-          {cardsJSX.slice(12, 16)}
+          {cardsJSX}         
         </div>
       </div>
     );
